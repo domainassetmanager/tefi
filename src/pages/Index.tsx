@@ -62,7 +62,7 @@ const Index = () => {
         </div>
 
         {/* Key features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
           <div className="p-6 rounded-lg bg-card border border-border/50 hover:border-primary/50 transition-all duration-300">
             <div className="text-4xl mb-3">✨</div>
             <h3 className="text-lg font-semibold text-foreground mb-2">Premium</h3>
@@ -79,6 +79,12 @@ const Index = () => {
             <div className="text-4xl mb-3">💬</div>
             <h3 className="text-lg font-semibold text-foreground mb-2">Pronounceable</h3>
             <p className="text-sm text-muted-foreground">Easy to say, spell, and remember</p>
+          </div>
+          
+          <div className="p-6 rounded-lg bg-card border border-border/50 hover:border-primary/50 transition-all duration-300">
+            <div className="text-4xl mb-3">🌐</div>
+            <h3 className="text-lg font-semibold text-foreground mb-2">Versatile</h3>
+            <p className="text-sm text-muted-foreground">Can be used in any industry</p>
           </div>
         </div>
 
@@ -162,9 +168,9 @@ const Index = () => {
               </a>
             </div>
             
-            <div className="p-4 rounded-lg bg-muted/50 border border-border">
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                <strong className="text-foreground">Please note:</strong> If your inquiry doesn't include a solid offer in comparable sales price range, you are unlikely to receive a response.
+            <div className="p-4 rounded-lg bg-primary/10 border-2 border-primary/40">
+              <p className="text-sm font-semibold text-foreground leading-relaxed">
+                <strong className="text-primary">⚠️ Please note:</strong> If your inquiry doesn't include a solid offer in comparable sales price range, you are unlikely to receive a response.
               </p>
             </div>
           </div>
